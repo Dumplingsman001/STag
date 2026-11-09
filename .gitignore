@@ -1,0 +1,23 @@
+# Runtime output and local data
+__pycache__/
+*.py[cod]
+*.log
+*.db
+*.db-shm
+*.db-wal
+
+# Built executable and packaging output
+STag.exe
+build/
+dist/
+*.spec
+
+# Local Excel data (never commit real data)
+data/
+module_sources/
+
+# Local environment
+.venv/
+.venv-build/
+venv/
+.env

@@ -1,0 +1,22 @@
+{
+  "data_source": {
+    "path": "data/inventory.xlsx",
+    "sheet": 0,
+    "code_column": "sku编码",
+    "name_column": "sku名称",
+    "stock_columns": [
+      "库存A",
+      "库存B"
+    ],
+    "check_interval_seconds": 30,
+    "use_local_cache": true
+  },
+  "operations": {
+    "path": "data/owners.xlsx",
+    "sheet": 0,
+    "code_column": "编码",
+    "owner_column": "负责人",
+    "assistant_column": "助理",
+    "check_interval_seconds": 30
+  }
+}
